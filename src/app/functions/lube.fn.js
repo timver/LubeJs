@@ -252,7 +252,7 @@ window.Lube = (function ($, ns) {
                 });
             }
 
-            return obj;
+            return obj; 
         },
 
         /**
