@@ -5,6 +5,7 @@
   "main": "lube.strapon.js",
   "repository": "https://github.com/timver/LubeJs.git",
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.5",
     "jquery": "^3.1.0",
     "npm": "^3.10.6"
   },
