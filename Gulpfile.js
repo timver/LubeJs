@@ -34,6 +34,12 @@ gulp.task('compile-sass', function() {
 
 //Watch task
 gulp.task('default', function() {
+    console.log(' | |         | |             | |    ');
+    console.log(' | |    _   _| |__   ___     | |___ ');
+    console.log(' | |   | | | | \'_ \\ / _ \\_   | / __|');
+    console.log(' | |___| |_| | |_) |  __/ |__| \\__ \\');
+    console.log(' |______\\__,_|_.__/ \\___|\\____/|___/');
+
     gulp.watch('./src/app/**/*.js', ['compile-js']);
     gulp.watch('./src/scss/**/*.scss', ['compile-sass']);
 });
