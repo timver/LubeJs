@@ -1,0 +1,18 @@
+/* These are Sitecore specific resets to make sure that
+   the Sitecore Experience Editor will keep working if
+   this library is used */
+
+.scInsertionHandleCenter,
+.sc-breadcrumb .sc-breadcrumb-item-path,
+.sc-breadcrumb-item-path img,
+.scChromeCommand {
+    box-sizing: initial;
+}
+
+.sc-breadcrumb-item-path img {
+    vertical-align: initial;
+}
+
+.sc-breadcrumb-item-path span {
+    font-size: 12px;
+}

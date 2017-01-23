@@ -1,32 +1,35 @@
 {
-    "name": "lube-js",
-    "version": "0.0.1",
-    "description": "Use LubeJs and strap it on!",
-    "main": "lube.strapon.js",
-    "repository": "https://github.com/timver/LubeJs.git",
-    "dependencies": {
-        "jquery": "^3.1.0",
-        "npm": "^3.10.6"
-    },
-    "devDependencies": {
-        "es6-promise": "^3.2.1",
-        "gulp": "^3.9.1",
-        "gulp-autoprefixer": "^3.1.1",
-        "gulp-sass": "^2.3.2",
-        "gulp-util": "^3.0.7",
-        "gulp-sourcemaps": "^1.6.0"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "Lube",
-        "Strap-on",
-        "Front-End",
-        "JavaScript",
-        "jQuery",
-        "Google API"
-    ],
-    "author": "Stef Coenen & Tim Vermaelen",
-    "license": "MIT"
+  "name": "lube-js",
+  "version": "0.0.1",
+  "description": "Use LubeJs and strap it on!",
+  "main": "lube.strapon.js",
+  "repository": "https://github.com/timver/LubeJs.git",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.5",
+    "jquery": "^3.1.0",
+    "npm": "^3.10.6"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.1.4",
+    "es6-promise": "^3.2.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Lube",
+    "Strap-on",
+    "Front-End",
+    "JavaScript",
+    "jQuery",
+    "Google API"
+  ],
+  "author": "Stef Coenen & Tim Vermaelen",
+  "license": "MIT"
 }

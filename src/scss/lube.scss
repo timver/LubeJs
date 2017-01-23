@@ -1,0 +1,25 @@
+/*
+LubeJs
+=============================
+
+This project front end is setup following the atomic design
+principle. For more information I can only pass credit to Brad Frost.
+
+And provide the following url describing the architecure:
+http://atomicdesign.bradfrost.com/chapter-2/
+
+*/
+
+@import 'mixins/mixins';
+
+@import 'globals/variables';
+
+@import 'vendor/vendor';
+
+@import 'globals/globals';
+
+@import 'atoms/atoms';
+
+@import 'molecules/molecules';
+
+@import 'organisms/organisms';

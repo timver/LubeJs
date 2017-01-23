@@ -1,6 +1,6 @@
 /**
 * [window.Lube]
-* 
+*
 * @author       [Stef Coenen & Tim Vermaelen]
 * @date         [2016]
 * @link         [https://github.com/timver/LubeJs.git]
@@ -33,7 +33,8 @@ window.Lube = (function ($, ns) {
             pager: new ns.Pager(),
             places: new ns.Places(),
             toggle: new ns.Toggle(),
-            wizard: new ns.Wizard()
+            wizard: new ns.Wizard(),
+            googlemaps: new ns.GoogleMaps()
         };
     };
 
