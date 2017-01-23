@@ -252,7 +252,7 @@ window.Lube = (function ($, ns) {
                 });
             }
 
-            return obj; 
+            return obj;
         },
 
         /**
@@ -294,7 +294,7 @@ window.Lube = (function ($, ns) {
             return o || undefined;
         },
 
-        pageOffset: function() {
+        pageOffset: function () {
             var supportPageOffset = window.pageXOffset !== undefined;
             var isCSS1Compat = ((document.compatMode || '') === 'CSS1Compat');
 
